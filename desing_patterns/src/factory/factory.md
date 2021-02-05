@@ -14,4 +14,5 @@ Pros
      * OCP -> É possível introduzir novos tipos de classes sem alterar o comportamento das classes já existentes.
 
 Cons 
+     
      * O código pode ficar mais complicado pois será necessário introduzir várias subclasses para implementar o padrão
