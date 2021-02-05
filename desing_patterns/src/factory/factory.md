@@ -1,12 +1,17 @@
-#Factory
+# Factory
 
-Basicamente, a lÛgica criacional È encapsulada dentro do factory e, ou È fornecido um mÈtodo que retorna um novo objeto criado (Padr„o Factory Method) ou delega-se a criaÁ„o do objeto para uma subclasse (Padr„o Abstract Factory).
+Basicamente, a l√≥gica criacional √© encapsulada dentro do factory e, ou √© fornecido um m√©todo que retorna um novo objeto criado (Padr√£o Factory Method) ou delega-se a cria√ß√£o do objeto para uma subclasse (Padr√£o Abstract Factory).
 
-O cliente n„o precisa conhecer as diferentes implementaÁıes da interface ou da classe. A ˙nica coisa que o cliente precisa conhecer È a Factory para que possa obter uma inst‚ncia de uma das implementaÁıes da interface. Dessa forma, os clientes s„o desacoplados da criaÁ„o de objetos. Esse desacoplamento se d· em funÁ„o da aplicaÁ„o do princÌpio da invers„o de dependÍncia. Entre as vantagens do desacoplamento tem-se a possibilidade de serem implementadas classes concretas que podem ser alteradas sem afetar o cliente, reduzindo assim o acoplamento entre as classes e aumentando a flexibilidade. Isso tem como resultado tambÈm uma maior simplificaÁ„o para os desenvolvedores quando È necess·ria a realizaÁ„o de refatoraÁ„o no cÛdigo, pois agora existe um ˙nico ponto onde as alteraÁıes podem ocorrer.
+O cliente n√£o precisa conhecer as diferentes implementa√ß√µes da interface ou da classe. A √∫nica coisa que o cliente precisa conhecer √© a Factory para que possa obter uma inst√¢ncia de uma das implementa√ß√µes da interface. Dessa forma, os clientes s√£o desacoplados da cria√ß√£o de objetos. Esse desacoplamento se d√° em fun√ß√£o da aplica√ß√£o do princ√≠pio da invers√£o de depend√™ncia. Entre as vantagens do desacoplamento tem-se a possibilidade de serem implementadas classes concretas que podem ser alteradas sem afetar o cliente, reduzindo assim o acoplamento entre as classes e aumentando a flexibilidade. Isso tem como resultado tamb√©m uma maior simplifica√ß√£o para os desenvolvedores quando √© necess√°ria a realiza√ß√£o de refatora√ß√£o no c√≥digo, pois agora existe um √∫nico ponto onde as altera√ß√µes podem ocorrer.
 
 
-Pros - Evita um alto acoplamento entre a f·brica e as classes concretas
-     - SRP -> A criaÁ„o da classe concreta fica concentrada em apenas um local fazendo com que o cÛdigo fique mais f·cil de dar suporte
-     - OCP -> … possÌvel introduzir novos tipos de classes sem alterar o comportamento das classes j· existentes.
+Pros 
+     
+     * Evita um alto acoplamento entre a f√°brica e as classes concretas
+     
+     * SRP -> A cria√ß√£o da classe concreta fica concentrada em apenas um local fazendo com que o c√≥digo fique mais f√°cil de dar suporte
+     
+     * OCP -> √â poss√≠vel introduzir novos tipos de classes sem alterar o comportamento das classes j√° existentes.
 
-Cons - O cÛdigo pode ficar mais complicado pois ser· necess·rio introduzir v·rias subclasses para implementar o padr„o
+Cons 
+     * O c√≥digo pode ficar mais complicado pois ser√° necess√°rio introduzir v√°rias subclasses para implementar o padr√£o
